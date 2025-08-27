@@ -17,48 +17,34 @@ const geistMono = Geist_Mono({
 
 async function generateMetadata(): Promise<Metadata> {
   try {
+    const metadata = await resumeRepository.getMetadata();
     const personalInfo = await resumeRepository.getPersonalInfo();
     const socialLinks = await resumeRepository.getSocialLinks();
-    const experiences = await resumeRepository.getExperiences();
-    const professionalSummary = await resumeRepository.getProfessionalSummary();
     
-    // Get current role from the most recent experience
-    const currentRole = experiences[0]?.roles[0]?.title || "Professional";
-    
-    // Extract skills for description
-    const skills = await resumeRepository.getSkills();
-    const topSkills = skills.technical.slice(0, 5).join(", ");
-    
-    const title = `${personalInfo.name} - ${currentRole}`;
-    const description = `Professional resume of ${personalInfo.name}, ${professionalSummary} Skilled in ${topSkills}.`;
-    
-    // Find Twitter handle
-    const twitterLink = socialLinks.find((link: SocialLink) => link.text.toLowerCase().includes("twitter") || link.url.includes("twitter.com"));
-    const twitterHandle = twitterLink?.url?.replace("https://twitter.com/", "@") || twitterLink?.url?.replace("https://x.com/", "@");
+    // Find Twitter handle for Twitter card
+    const twitterLink = socialLinks.find((link: SocialLink) => 
+      link.text.toLowerCase().includes("twitter") || link.url.includes("twitter.com") || link.url.includes("x.com")
+    );
+    const twitterHandle = twitterLink?.url?.replace(/https?:\/\/(twitter\.com|x\.com)\//, "@");
     
     return {
-      title,
-      description,
-      keywords: [
-        personalInfo.name,
-        currentRole,
-        ...skills.technical.slice(0, 8),
-        ...personalInfo.location.split(", "),
-      ],
-      authors: [{ name: personalInfo.name }],
-      creator: personalInfo.name,
+      title: metadata.title,
+      description: metadata.description,
+      keywords: metadata.keywords,
+      authors: [{ name: metadata.author }],
+      creator: metadata.author,
       openGraph: {
-        title,
-        description,
+        title: metadata.title,
+        description: metadata.description,
         type: "profile",
         locale: "en_US",
-        url: "https://iambaljeet.github.io/portfolio/",
+        url: metadata.siteUrl,
         siteName: `${personalInfo.name} - Resume`,
       },
       twitter: {
         card: "summary",
-        title,
-        description,
+        title: metadata.title,
+        description: metadata.description,
         creator: twitterHandle,
       },
       robots: {

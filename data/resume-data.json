@@ -1,7 +1,14 @@
 {
+  "metadata": {
+    "title": "Baljeet Singh - Android Developer",
+    "description": "Experienced Android Developer and Tech Lead with 7+ years of expertise in Kotlin, Java, and mobile app development. Passionate about creating scalable mobile solutions and leading development teams.",
+    "keywords": ["Android Developer", "Tech Lead", "Kotlin", "Java", "Mobile Development", "Team Leadership", "Software Engineering", "Mobile Apps"],
+    "author": "Baljeet Singh",
+    "siteUrl": "https://baljeet.dev"
+  },
   "personalInfo": {
     "name": "Baljeet Singh",
-    "title": "Android Developer & Tech Lead",
+    "title": "Android Developer",
     "location": "Gurugram, India",
     "phone": "+91 7988614724",
     "email": "ibaljeet@outlook.com"

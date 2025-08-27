@@ -3,6 +3,7 @@ import resumeData from '@/data/resume-data.json'
 
 export interface ResumeRepository {
   getResumeData(): Promise<ResumeData>
+  getMetadata(): Promise<ResumeData['metadata']>
   getPersonalInfo(): Promise<ResumeData['personalInfo']>
   getSocialLinks(): Promise<ResumeData['socialLinks']>
   getExperiences(): Promise<ResumeData['experiences']>
@@ -22,6 +23,10 @@ class JsonResumeRepository implements ResumeRepository {
 
   async getResumeData(): Promise<ResumeData> {
     return this.data
+  }
+
+  async getMetadata(): Promise<ResumeData['metadata']> {
+    return this.data.metadata
   }
 
   async getPersonalInfo(): Promise<ResumeData['personalInfo']> {

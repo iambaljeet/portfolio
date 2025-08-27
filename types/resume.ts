@@ -1,3 +1,11 @@
+export interface MetaData {
+  title: string
+  description: string
+  keywords: string[]
+  author: string
+  siteUrl: string
+}
+
 export interface PersonalInfo {
   name: string
   title: string
@@ -47,6 +55,7 @@ export interface TechnicalSkills {
 }
 
 export interface ResumeData {
+  metadata: MetaData
   personalInfo: PersonalInfo
   socialLinks: SocialLink[]
   professionalSummary: string
