@@ -10,6 +10,7 @@ export interface ResumeRepository {
   getTechnicalSkills(): Promise<ResumeData['technicalSkills']>
   getKeyAchievements(): Promise<ResumeData['keyAchievements']>
   getProfessionalSummary(): Promise<string>
+  getSkills(): Promise<{ technical: string[] }>
 }
 
 class JsonResumeRepository implements ResumeRepository {
@@ -49,6 +50,12 @@ class JsonResumeRepository implements ResumeRepository {
 
   async getProfessionalSummary(): Promise<string> {
     return this.data.professionalSummary
+  }
+
+  async getSkills(): Promise<{ technical: string[] }> {
+    // Flatten all technical skills from all categories
+    const allSkills = Object.values(this.data.technicalSkills).flat()
+    return { technical: allSkills }
   }
 }
 

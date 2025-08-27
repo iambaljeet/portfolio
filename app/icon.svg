@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="16" height="16" rx="1.5" fill="#ffffff" stroke="#e5e7eb" stroke-width="0.5"/>
+  
+  <!-- Header line -->
+  <rect x="2" y="2.5" width="12" height="1" fill="#3b82f6"/>
+  
+  <!-- Name lines -->
+  <rect x="2" y="4.5" width="8" height="0.75" fill="#1f2937"/>
+  <rect x="2" y="5.75" width="6" height="0.5" fill="#6b7280"/>
+  
+  <!-- Content lines -->
+  <rect x="2" y="7.5" width="4" height="0.5" fill="#9ca3af"/>
+  <rect x="7" y="7.5" width="7" height="0.5" fill="#9ca3af"/>
+  
+  <rect x="2" y="8.75" width="6" height="0.5" fill="#9ca3af"/>
+  <rect x="9" y="8.75" width="5" height="0.5" fill="#9ca3af"/>
+  
+  <rect x="2" y="10" width="5" height="0.5" fill="#9ca3af"/>
+  <rect x="8" y="10" width="6" height="0.5" fill="#9ca3af"/>
+  
+  <rect x="2" y="11.25" width="7" height="0.5" fill="#9ca3af"/>
+  <rect x="10" y="11.25" width="4" height="0.5" fill="#9ca3af"/>
+  
+  <!-- Section divider -->
+  <rect x="2" y="12.5" width="12" height="0.25" fill="#e5e7eb"/>
+  
+  <!-- Bottom content -->
+  <rect x="2" y="13.5" width="3" height="0.5" fill="#9ca3af"/>
+  <rect x="6" y="13.5" width="4" height="0.5" fill="#9ca3af"/>
+  <rect x="11" y="13.5" width="3" height="0.5" fill="#9ca3af"/>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="180" height="180" rx="16" fill="#ffffff"/>
+  
+  <!-- Header line -->
+  <rect x="24" y="30" width="132" height="8" fill="#3b82f6"/>
+  
+  <!-- Name lines -->
+  <rect x="24" y="50" width="88" height="6" fill="#1f2937"/>
+  <rect x="24" y="62" width="66" height="4" fill="#6b7280"/>
+  
+  <!-- Content lines -->
+  <rect x="24" y="80" width="44" height="4" fill="#9ca3af"/>
+  <rect x="76" y="80" width="80" height="4" fill="#9ca3af"/>
+  
+  <rect x="24" y="92" width="66" height="4" fill="#9ca3af"/>
+  <rect x="98" y="92" width="58" height="4" fill="#9ca3af"/>
+  
+  <rect x="24" y="104" width="55" height="4" fill="#9ca3af"/>
+  <rect x="87" y="104" width="69" height="4" fill="#9ca3af"/>
+  
+  <rect x="24" y="116" width="77" height="4" fill="#9ca3af"/>
+  <rect x="109" y="116" width="47" height="4" fill="#9ca3af"/>
+  
+  <rect x="24" y="128" width="44" height="4" fill="#9ca3af"/>
+  <rect x="76" y="128" width="55" height="4" fill="#9ca3af"/>
+  <rect x="139" y="128" width="17" height="4" fill="#9ca3af"/>
+  
+  <!-- Section divider -->
+  <rect x="24" y="145" width="132" height="2" fill="#e5e7eb"/>
+  
+  <!-- Bottom content -->
+  <rect x="24" y="155" width="33" height="4" fill="#9ca3af"/>
+  <rect x="65" y="155" width="44" height="4" fill="#9ca3af"/>
+  <rect x="117" y="155" width="39" height="4" fill="#9ca3af"/>
+</svg>
