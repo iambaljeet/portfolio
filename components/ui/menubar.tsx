@@ -216,7 +216,7 @@ function MenubarShortcut({
 
 function MenubarSubTrigger({
   className,
-  inset,
+  inset, // eslint-disable-line @typescript-eslint/no-unused-vars
   children,
   ...props
 }: React.ComponentPropsWithoutRef<typeof MenubarPrimitive.SubTrigger> & {

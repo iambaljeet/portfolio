@@ -540,7 +540,7 @@ function SidebarMenuButton({
 function SidebarMenuAction({
   className,
   asChild = false,
-  showOnHover = false,
+  showOnHover = false, // eslint-disable-line @typescript-eslint/no-unused-vars
   ...props
 }: React.ComponentProps<"button"> & {
   asChild?: boolean

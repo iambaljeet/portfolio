@@ -1,4 +1,5 @@
 import * as LucideIcons from "lucide-react"
+import React from "react"
 
 interface DynamicIconProps {
   name: string
@@ -6,9 +7,14 @@ interface DynamicIconProps {
   size?: number
 }
 
+interface LucideIconProps {
+  className?: string
+  size?: number
+}
+
 export function DynamicIcon({ name, className, size = 16 }: DynamicIconProps) {
   // Get the icon component from lucide-react
-  const IconComponent = (LucideIcons as any)[name]
+  const IconComponent = (LucideIcons as unknown as Record<string, React.ComponentType<LucideIconProps>>)[name]
   
   if (!IconComponent) {
     // Fallback to a default icon if the specified icon doesn't exist
