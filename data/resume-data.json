@@ -1,0 +1,164 @@
+{
+  "personalInfo": {
+    "name": "Baljeet Singh",
+    "title": "Android Developer & Tech Lead",
+    "location": "Gurugram, India",
+    "phone": "+91 7988614724",
+    "email": "ibaljeet@outlook.com"
+  },
+  "socialLinks": [
+    {
+      "id": "github",
+      "text": "GitHub",
+      "url": "https://github.com/iambaljeet",
+      "icon": "Github",
+      "type": "social",
+      "bgColor": "bg-primary",
+      "hoverColor": "hover:bg-primary/90",
+      "color": "text-primary-foreground"
+    },
+    {
+      "id": "linkedin",
+      "text": "LinkedIn",
+      "url": "https://www.linkedin.com/in/devbaljeet/",
+      "icon": "Linkedin",
+      "type": "social",
+      "bgColor": "bg-blue-600",
+      "hoverColor": "hover:bg-blue-700",
+      "color": "text-white"
+    },
+    {
+      "id": "twitter",
+      "text": "Twitter",
+      "url": "https://x.com/yetanotherdev_",
+      "icon": "Twitter",
+      "type": "social",
+      "bgColor": "bg-sky-500",
+      "hoverColor": "hover:bg-sky-600",
+      "color": "text-white"
+    }
+  ],
+  "professionalSummary": "Results-driven Android Developer with over 8 years of experience. I lead teams and architect complex systems, with a track record of improving app performance, user engagement, and crash-free rates. Skilled in migrating legacy code and leveraging modern technologies like Jetpack Compose to deliver exceptional user experiences.",
+  "technicalSkills": {
+    "Programming Languages": ["Kotlin", "Java"],
+    "Frameworks & Tools": ["Jetpack Compose", "Jetpack", "MVVM", "Firebase", "JUnit", "Mockito", "Android Studio", "Git", "Jenkins"],
+    "Libraries & DevOps": ["Retrofit", "Dagger", "Hilt", "LeakCanary", "GSON", "Compose", "Coroutines", "Flow"],
+    "Databases": ["SQLite", "ObjectBox", "Firebase Realtime DB", "Firebase Firestore"]
+  },
+  "experiences": [
+    {
+      "company": "Probo",
+      "roles": [
+        {
+          "title": "Tech Lead",
+          "period": "September 2023 - Present"
+        },
+        {
+          "title": "Android Developer",
+          "period": "March 2022 - September 2023",
+          "achievements": [
+            "Leading a team of 10+ developers and successfully delivered 10+ projects within given timelines",
+            "Rearchitectured authentication and referral flows, improving organic referral rates by 20%",
+            "Maintained 99.5% crash-free users rate and 99.8% crash-free sessions with 50M+ user base during peak IPL traffic of 1M+ DAU",
+            "Created in-house Analytics library 'Paralytics' for app events and API error logging with alerting systems",
+            "Implemented CI/CD pipeline, reducing build shipping time by 30+ minutes and boosting developer productivity",
+            "Initiated Jetpack Compose adoption, reducing development time significantly and improving developer productivity",
+            "Mentored Mobile team on latest market trends and best practices",
+            "Recreated feed screen from scratch with real-time data changes, reducing API calls by 4%",
+            "Refactored app codebase removing unused code and migrated Java classes to Kotlin, reducing app size by 2MB",
+            "Improved performance and user experience through architecture optimization"
+          ],
+          "technologies": ["Kotlin", "Jetpack Compose", "MVVM", "CI/CD", "Analytics", "Kotlin", "Android Architecture", "Performance Optimization"]
+        }
+      ]
+    },
+    {
+      "company": "GreedyGame",
+      "roles": [
+        {
+          "title": "Android Developer",
+          "period": "October 2020 - March 2022",
+          "achievements": [
+            "Built multiple applications from scratch that collectively gained 5M+ downloads",
+            "Architected and developed apps with 99%+ crash-free rate",
+            "Led Android interns in implementing best practices and writing clean, maintainable code",
+            "Enhanced Facebook Audience Network support in in-house SDK, improving monetization capabilities",
+            "Contributed to building new wing for in-house application development"
+          ],
+          "technologies": ["Kotlin", "Java", "SDK Development", "Monetization", "Architecture"]
+        }
+      ]
+    },
+    {
+      "company": "Shout Networking",
+      "roles": [
+        {
+          "title": "Android Developer",
+          "period": "January 2019 - October 2020",
+          "achievements": [
+            "Successfully migrated 100% of application from Java to Kotlin within deadline",
+            "Rearchitectured entire application, reducing initial app load time by 30%",
+            "Improved crash-free rate to 98.8% through systematic code optimization",
+            "Built feed screen and authentication flow from scratch, improving signup rate by 6%",
+            "Delivered new features while maintaining code quality and performance standards"
+          ],
+          "technologies": ["Kotlin", "Java", "Architecture Migration", "Performance Optimization"]
+        }
+      ]
+    },
+    {
+      "company": "Visions",
+      "roles": [
+        {
+          "title": "Android Developer",
+          "period": "July 2017 - January 2019",
+          "achievements": [
+            "Created multiple new applications from scratch including UI design, API integration, and testing",
+            "Maintained and enhanced existing applications with close collaboration with UI/UX and Product teams",
+            "Implemented application architecture and base frameworks for scalable development",
+            "Successfully deployed applications from development to production"
+          ],
+          "technologies": ["Java", "Android SDK", "API Integration", "UI/UX Implementation"]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology (Computer Science Engineering)",
+      "institution": "Haryana Engineering College (Kurukshetra University)",
+      "year": "2017",
+      "location": "Yamuna Nagar, Haryana"
+    },
+    {
+      "degree": "12th Grade",
+      "institution": "Shanti Niketan Sr. Sec School",
+      "year": "2013",
+      "location": "Yamuna Nagar, Haryana"
+    },
+    {
+      "degree": "10th Grade",
+      "institution": "Mukand Lal Public School",
+      "year": "2011",
+      "location": "Yamuna Nagar, Haryana"
+    }
+  ],
+  "keyAchievements": [
+    {
+      "value": "100%",
+      "description": "Java to Kotlin Migration"
+    },
+    {
+      "value": "99.5%",
+      "description": "Crash-Free Rate Achieved"
+    },
+    {
+      "value": "10+",
+      "description": "Team Members Led"
+    },
+    {
+      "value": "20%",
+      "description": "Referral Rate Improvement"
+    }
+  ]
+}
